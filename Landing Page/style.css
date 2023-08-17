@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Sarala', sans-serif;
+  font-size: 100%;
+  background: linear-gradient(38deg, #2F2325 0%, #8E5D52 100%);
+
+  margin: 0 auto;
+
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-around;
+
+  text-align: center;
+
+  border-bottom: 0.4px solid #FFF2E7;
+
+}
+
+header nav ul {
+  display: flex;
+  gap: 32px;
+
+  list-style: none;
+
+}
+
+header nav ul a {
+  color: #FFF2E7;
+  font-size: 18px;
+}
+
+header nav ul a:hover {
+  color: #F9DCC4;
+  font-weight: 700;
+}
+
+header img {
+  height: 72px;
+}
+
+main .image-container {
+  display: flex;
+  align-items:  center;
+  justify-content: space-around;
+}
+
+main .image-container h1 {
+  font-family: 'Righteous', cursive;
+  color: #FFF2E7;
+  font-size: 64px;
+}
+
+main .image-container h2 {
+  color: #ECD6C4;
+  font-size: 24px;
+}
+
+main .image-container img {
+  height: 429px;
+}
+
+main .first-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+main .first-container button {
+  width: 185px;
+  height: 67px;
+
+  border-radius: 20px;
+  background: #ECD6C4;
+  box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+
+  color: #2F2325;
+  text-align: center;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+}
+
+main .first-container button:hover {
+  background: #F9DCC4;
+  font-weight: 700;
+  box-shadow: none;
+
+  cursor: pointer;
+}
+
+main .line {
+  margin: 52px auto;
+  border-top: 0.4px solid #FFF2E7;
+  width: 276px;
+
+  
+}
+
+main .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+  text-align: center;
+  color: #ECD6C4;
+  font-size: 18px;
+;
+}
+
+main.text-container h3 {
+  font-family: 'Righteous', cursive;
+  color: #FFF2E7;
+}
+
+footer {
+  margin: 83px auto 45px;
+  padding-top: 40px;
+  text-align: center;
+
+  border-top: 0.4px solid #FFF2E7;
+}
